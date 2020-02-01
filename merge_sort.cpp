@@ -40,7 +40,7 @@ void merge_sort(int * arr,int p,int r) {
 }
 
 //usage:
-bubble(arr,length);
+merge_sort(arr,0,length-1);
 
 /*average speed of sorting 1 000 000 array (0-65000) is 0.365 sec
 Big O is:
