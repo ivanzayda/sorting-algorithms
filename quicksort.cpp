@@ -25,4 +25,8 @@ void quick(int* arr, int left, int right) {
 }
 //usage:
 quickSort(arr, 0, length-1);
-//average speed of sorting 1 000 000 array (0-65000) is 0.135 sec
+/*average speed of sorting 1 000 000 array (0-65000) is 0.135 sec
+Big O is:
+Best                  | Avg      | Worst
+O(n*log<sub>2</sub>n) | O(nlogn) | O(n<sup>2</sup>)
+*/
